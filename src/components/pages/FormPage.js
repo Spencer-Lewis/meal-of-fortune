@@ -4,7 +4,7 @@ import InputForm from "../InputForm";
 import * as requestUtil from "../../Util/requestUtil";
 import styled from "styled-components";
 
-const FormContainer = styled.div`
+const FormWrapper = styled.div`
     width: 20%;
     margin: 0 auto;
 `
@@ -35,19 +35,14 @@ class FormPage extends Component {
 
     render() {
         return (
-            <FormContainer>
+            <FormWrapper>
                 <InputForm
                     handleInput1Change={this.handleInput1Change}
                     handleInput2Change={this.handleInput2Change}
                     handleInput3Change={this.handleInput3Change}
                     handleFormSubmit={this.handleFormSubmit}
                 />
-                <InputDisplay
-                    input1={this.state.input1}
-                    input2={this.state.input2}
-                    input3={this.state.input3}
-                />
-            </FormContainer>
+            </FormWrapper>
         );
     }
 }
