@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
-import TextField from "@material-ui/core/TextField"
 
 export default function InputForm(props) {
     return (
@@ -8,8 +7,8 @@ export default function InputForm(props) {
         <Button 
           variant="contained" 
           color="primary"
-          onClick={props.handleFormSubmit}>
-            Submit Form
+          onClick={props.handleRandomizeButton}>
+            GIVE ME THAT SHIT
         </Button> 
       </div>
     );
