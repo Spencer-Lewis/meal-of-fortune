@@ -1,12 +1,10 @@
 [
     {
-        "Barcelona": {
-            "type": "Tapas"
-        }
+        "name": "Barcelona",
+        "type": "Tapas"
     },
     {
-        "MidiCi": {
-            "type": "Pizza"
-        }
+        "name": "MidiCi",
+        "type": "Pizza"
     }
 ]

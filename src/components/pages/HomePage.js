@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import InputForm from '../InputForm';
+var dataOptions = require("../../restaurantData/restaurantData");
 
 const HomeContainer = styled.div`
 text-align: center;
@@ -12,7 +13,7 @@ class HomePage extends Component {
   state = {}
 
   handleRandomizeButton = () => {
-    console.log("clicked dat button");
+    console.log(dataOptions);
   }
 
   render() {
