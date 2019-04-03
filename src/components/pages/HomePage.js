@@ -3,7 +3,8 @@ import styled from "styled-components";
 import InputForm from '../InputForm';
 
 const HomeContainer = styled.div`
-width: 335px;
+text-align: center;
+width: 40vw;
 margin: 0 auto;
 `
 
